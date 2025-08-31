@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="description" content="Portfolio-style resume for Zhuangrongwei (Christine) Zhao — Product Designer / Frontend Engineer." />
+  <title>Zhuangrongwei (Christine) Zhao — Product Designer / Frontend Engineer</title>
+  <style>
+    /* Google Material-inspired design */
+    *,*::before,*::after{box-sizing:border-box}
+    *{margin:0}
+    body{
+      font-family:Roboto, "Google Sans", Inter, Arial, sans-serif;
+      background:#f8f9fa; color:#202124; line-height:1.6;
+      -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility;
+    }
+    a{color:#1a73e8;text-decoration:none}
+    a:hover{text-decoration:underline}
+
+    .page{max-width:1040px;margin:32px auto;padding:0 24px}
+
+    header.resume{
+      background:#fff;border:1px solid #e0e3e7;border-radius:12px;
+      padding:28px;box-shadow:0 1px 2px rgba(0,0,0,.06),0 2px 6px rgba(0,0,0,.12);
+      margin-bottom:24px
+    }
+    .title{display:flex;flex-wrap:wrap;align-items:flex-end;gap:10px}
+    .title h1{font-size:28px;font-weight:600;margin:0;color:#202124}
+    .tag{font-size:13px;background:#e8f0fe;color:#185abc;padding:6px 12px;border-radius:999px;border:1px solid #d2e3fc}
+
+    .meta{display:flex;flex-wrap:wrap;gap:12px 20px;color:#5f6368;font-size:14px;margin-top:6px}
+    .summary{margin-top:12px;font-size:15px;max-width:75ch;color:#3c4043}
+
+    main{margin-top:20px;display:grid;grid-template-columns:1.15fr .85fr;gap:20px}
+    @media (max-width:900px){main{grid-template-columns:1fr}}
+
+    section{
+      background:#fff;border:1px solid #e0e3e7;border-radius:12px;
+      padding:22px;box-shadow:0 1px 2px rgba(0,0,0,.06),0 2px 6px rgba(0,0,0,.12);
+      margin-bottom:24px
+    }
+    h2{margin:0 0 12px;font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:#5f6368}
+
+    /* 每条履历/项目/教育 item 的留白 + 分割线 */
+    .item{padding:12px 0}
+    .item + .item{border-top:1px solid #e0e3e7}
+
+    .role{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:baseline}
+    .role .position{font-weight:600;color:#202124}
+    .role .company{color:#5f6368}
+    .role .time{margin-left:auto;color:#5f6368;font-size:13px}
+
+    ul.bullets{margin:8px 0 0 16px}
+    ul.bullets li{margin:6px 0}
+
+    .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+    .chip{background:#f1f3f4;border:1px solid #e0e3e7;border-radius:999px;padding:6px 10px;font-size:12.5px;color:#3c4043}
+
+    footer{margin-top:24px;color:#5f6368;font-size:13px;text-align:center}
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header class="resume">
+      <div class="title">
+        <h1>Zhuangrongwei (Christine) Zhao</h1>
+        <span class="tag">Product Designer • Frontend Engineer</span>
+      </div>
+      <div class="meta">
+        <span>Washington, DC / New York, NY • Open to SF Bay Area</span>
+        <span>📞 <a href="tel:+18184418039">+1 (818) 441-8039</a></span>
+        <span>✉️ <a href="mailto:zz1999@umd.edu">zz1999@umd.edu</a></span>
+        <a href="https://www.linkedin.com/in/zhuangrongwei-zhao-7a7650209/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+      <p class="summary">
+        HCIM product designer with frontend chops. I build fast, accessible, user-first interfaces; iterate with real users; and love game-inspired UI. Ex-Tencent (WeChat Mini Program UI). Comfortable owning end-to-end flows — from research & wireframes to performant production code.
+      </p>
+    </header>
+
+    <main>
+      <section>
+        <h2>Experience</h2>
+
+        <div class="item">
+          <div class="role">
+            <span class="position">Multimedia Designer Intern (Video & Design)</span>
+            <span class="company">Maryland Technology Enterprise Institute</span>
+            <span class="time">May 2025 – Present</span>
+          </div>
+          <ul class="bullets">
+            <li>Designed and launched responsive websites in Webflow, ensuring brand consistency, accessibility, and seamless user experiences.</li>
+            <li>Produced promotional videos from concept through delivery, including shooting, editing, motion graphics, and post-production, to support marketing campaigns and academic initiatives.</li>
+            <li>Collaborated cross-functionally with faculty, program managers, and marketing teams to align creative assets with strategic communication goals.</li>
+          </ul>
+        </div>
+
+        <div class="item">
+          <div class="role">
+            <span class="position">Product Designer (Platform UX)</span>
+            <span class="company">MystiChina Luxury Travel</span>
+            <span class="time">Apr 2024 – Sep 2024</span>
+          </div>
+          <ul class="bullets">
+            <li>Redesigned booking platform, boosting conversion by 15%.</li>
+            <li>Collaborated with engineers, iterated quickly on prototypes and UI flows.</li>
+            <li>Launched multiple travel packages, achieving +30% bookings in year one.</li>
+          </ul>
+        </div>
+
+        <div class="item">
+          <div class="role">
+            <span class="position">Marketing Assistant & Videographer</span>
+            <span class="company">Blue Sky Creative Studio</span>
+            <span class="time">Sep 2022 – May 2023</span>
+          </div>
+          <ul class="bullets">
+            <li>Created marketing strategies for NYC restaurants (SEO + social media ads).</li>
+            <li>Produced promotional videos, increasing engagement by 15%.</li>
+            <li>Optimized healthcare client website, improving SEO rankings by 23%.</li>
+          </ul>
+        </div>
+
+        <div class="item">
+          <div class="role">
+            <span class="position">Digital Marketing Specialist (Remote)</span>
+            <span class="company">Student Medicover Co.</span>
+            <span class="time">May 2022 – Sep 2022</span>
+          </div>
+          <ul class="bullets">
+            <li>Designed student-focused online marketing campaigns (+32% sales).</li>
+            <li>Produced online newsletters, improving brand awareness by 20%.</li>
+          </ul>
+        </div>
+
+        <div class="item">
+          <div class="role">
+            <span class="position">Media Editor (Bilingual)</span>
+            <span class="company">China Daily</span>
+            <span class="time">Jun 2021 – Aug 2021</span>
+          </div>
+          <ul class="bullets">
+            <li>Produced bilingual video content, reaching millions of views.</li>
+            <li>Boosted traffic for China Daily’s TikTok & WeChat presence.</li>
+          </ul>
+        </div>
+
+        <div class="item">
+          <div class="role">
+            <span class="position">Writer’s Assistant Intern</span>
+            <span class="company">Wavelets Entertainment, Inc.</span>
+            <span class="time">Feb 2022 – May 2022</span>
+          </div>
+          <ul class="bullets">
+            <li>Researched Chinese web novels and wrote technical articles for web series development.</li>
+          </ul>
+        </div>
+
+        <div class="item">
+          <div class="role">
+            <span class="position">Product Design / Frontend Intern</span>
+            <span class="company">Tencent — WeChat Health Mini Program</span>
+            <span class="time">Jun 2020 – Sep 2020</span>
+          </div>
+          <ul class="bullets">
+            <li>Designed UI for health applet; increased user satisfaction by 15%.</li>
+            <li>Contributed to COVID-19 volunteer design projects and digital archiving systems.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2>Technical Projects</h2>
+
+        <div class="item">
+          <div class="role">
+            <span class="position">630game — Indie Web Game</span>
+            <span class="company"><a href="https://github.com/KristineZhao/630game" target="_blank" rel="noopener">GitHub Repo</a></span>
+            <span class="time">2025</span>
+          </div>
+          <ul class="bullets">
+            <li>Designed & implemented browser-based game with responsive controls and polished UI.</li>
+            <li>Built gameplay loop, state management, and iterated on difficulty with playtesting.</li>
+          </ul>
+          <div class="chips"><span class="chip">HTML5</span><span class="chip">JavaScript</span><span class="chip">Game UX</span></div>
+        </div>
+
+  
+
+        <div class="item">
+          <div class="role">
+            <span class="position">Health Point App</span>
+            <span class="company">Gamified Health Platform</span>
+            <span class="time">2024–2025</span>
+          </div>
+          <ul class="bullets">
+            <li>Designed gamified health app where users earn points redeemable for medicine & insurance.</li>
+            <li>Developed Figma prototypes, voting flows, and system UX.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2>Skills</h2>
+        <div class="chips">
+          <span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span>
+          <!-- Removed: React, Tailwind -->
+          <span class="chip">Figma</span><span class="chip">UX Research</span><span class="chip">Unity (learning)</span>
+          <span class="chip">Adobe Suite</span><span class="chip">Blender</span>
+          <span class="chip">Chinese/English Bilingual</span>
+          <span class="chip">Film & Video Production (Cinematography & Post Editing)</span>
+        </div>
+      </section>
+
+      <section>
+        <h2>Education</h2>
+        <div class="item">
+          <div class="role">
+            <span class="position">M.S. Human-Computer Interaction</span>
+            <span class="company">University of Maryland</span>
+            <span class="time">2024 – 2026</span>
+          </div>
+        </div>
+        <div class="item">
+          <div class="role">
+            <span class="position">BFA, Film & TV Production</span>
+            <span class="company">New York University</span>
+            <span class="time">2018 – 2022</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      © <span id="year"></span> Christine Zhao • Built with semantic HTML & modern CSS
+    </footer>
+  </div>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
